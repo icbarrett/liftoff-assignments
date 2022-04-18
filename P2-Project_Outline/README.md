@@ -7,12 +7,32 @@ For this assignment, you will submit a high-level outline of your project. This 
 ## Submission Instructions
 
 ### Overview
-Include overview here
+
+	This web application is made for microgreen farmers. The web app should allow microgreen farmers to track their seed inventory, as well as allow them to manually put in orders they have received and auto track their planting schedule. Within their inventory farmers should be able to click on the seeds they have to know information about them such as the seed density, soaking, watering, days covered and uncovered that the seeds require, as well as what local suppliers they can purchase that type of seed from. 
+	The farmer should be able to manually add, edit and delete items from their inventory. When they manually enter an order they have received it triggers a set of auto features such as adding to the calendar: planting dates, delivery dates and a daily schedule. Those seeds are also deleted from the farmers inventory. If time to add further capability the farmer will have a separate login option from their employees who will have access to less features.
+
 ### Features
-Include Features here
+Inventory CRUD 
+  Farmer can create, update and delete inventory items
+Order CRUD
+  Farmer can create, update and delete orders they have received 
+Plant Schedule added to Calendar
+  When orders are received the calendar updates with a planting schedule and delivery dates and daily schedule 
+*Potential 
+User Login–role based access
+Admin (farmer) gets access to all features through their login
+Employee gets access to calendar feature through their login
+5)	Customer CRUD
+Farmer can create, update and delete customers
+  
 ### Technologies
-Include Technologies here
+UI-Front End creation using REACT framework and Javascript 
+API-Back End using Java, Spring, SQL
+
 ### What I'll Have to Learn
-Include what you will need to learn here
+We will need to learn how to use REACT framework on the front end to make our web app. We will also need to learn how to connect our front end UI to the back end API that we have created. 
+The calendar feature is also a new problem we will need to solve.
+
 ### Project Tracker
-Link to your Trello board here
+ https://trello.com/b/wJxlWS5Z/micro-greens-app
+
