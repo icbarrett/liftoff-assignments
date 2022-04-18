@@ -7,7 +7,6 @@ For this assignment, you will submit a high-level outline of your project. This 
 ## Submission Instructions
 
 ### Overview
-
 	This web application is made for microgreen farmers. The web app should allow microgreen farmers to track their seed inventory, as well as allow them to manually put in orders they have received and auto track their planting schedule. Within their inventory farmers should be able to click on the seeds they have to know information about them such as the seed density, soaking, watering, days covered and uncovered that the seeds require, as well as what local suppliers they can purchase that type of seed from. 
 	The farmer should be able to manually add, edit and delete items from their inventory. When they manually enter an order they have received it triggers a set of auto features such as adding to the calendar: planting dates, delivery dates and a daily schedule. Those seeds are also deleted from the farmers inventory. If time to add further capability the farmer will have a separate login option from their employees who will have access to less features.
 
